@@ -39,7 +39,12 @@ export function Exercise() {
           mb={8}
           alignContent="center"
         >
-          <Heading color="gray.100" fontSize="lg" flexShrink={1}>
+          <Heading
+            color="gray.100"
+            fontSize="lg"
+            flexShrink={1}
+            fontFamily="heading"
+          >
             Puxada Fronta
           </Heading>
           <HStack alignItems="center">
